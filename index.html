@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img
+          src="./images/illustration-box-desktop.svg"
+          class="img__box--desktop"
+          alt=""
+        />
+        <section class="section__image">
+          <img
+            src="./images/illustration-woman-online-mobile.svg"
+            class="img__woman--mobile"
+            alt=""
+          />
+
+          <img
+            src="./images/illustration-woman-online-desktop.svg"
+            class="img__woman--desktop"
+            alt=""
+          />
+
+          <img
+            src="./images/bg-pattern-mobile.svg"
+            class="img__pattern--mobile"
+            alt=""
+          />
+          <img
+            src="./images/bg-pattern-desktop.svg"
+            class="img__pattern--desktop"
+            alt=""
+          />
+        </section>
+
+        <section class="section__question">
+          <h1>FAQ</h1>
+          <div class="tab">
+            <div class="question__section">
+              <button class="question__tab" value="0">
+                How many team members can I invite?
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon"
+                />
+              </button>
+            </div>
+            <div class="answer" value="0">
+              <!-- You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan. -->
+            </div>
+          </div>
+          <hr />
+          <div class="tab">
+            <div class="question__section">
+              <button class="question__tab" value="1">
+                What is the maximum file upload size?
+
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon"
+                />
+              </button>
+            </div>
+            <div class="answer" value="1">
+              <!-- No more than 2GB. All files in your account must fit your allotted
+            storage space. -->
+            </div>
+          </div>
+          <hr />
+          <div class="tab">
+            <div class="question__section">
+              <button class="question__tab" value="2">
+                How do I reset my password?
+
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon"
+                />
+              </button>
+            </div>
+            <div class="answer" value="2">
+              <!-- Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you. -->
+            </div>
+          </div>
+          <hr />
+          <div class="tab">
+            <div class="question__section">
+              <button class="question__tab" value="3">
+                Can I cancel my subscription?
+
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon"
+                />
+              </button>
+            </div>
+            <div class="answer" value="3">
+              <!-- Yes! Send us a message and we’ll process your request no questions
+            asked. -->
+            </div>
+          </div>
+          <hr />
+          <div class="tab">
+            <div class="question__section">
+              <button class="question__tab" value="4">
+                Do you provide additional support?
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon"
+                />
+              </button>
+            </div>
+            <div class="answer" value="4">
+              <!-- Chat and email support is available 24/7. Phone lines are open
+            during normal business hours. -->
+            </div>
+          </div>
+          <hr />
+        </section>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.philjgray.ca">Phil J Gray</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
