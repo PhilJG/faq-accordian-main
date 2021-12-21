@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/PhilJG/faq-accordian/tree/main/faq-accordion-card-main)
-- Live Site URL: [Live Site](https://https://philjg.github.io/faq-accordian/)
+- [Solution URL](https://github.com/PhilJG/faq-accordian/tree/main/faq-accordion-card-main)
+- [Live Site](https://philjg.github.io/faq-accordian-main/)
 
 ## My process
 
